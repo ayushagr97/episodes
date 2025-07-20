@@ -57,6 +57,8 @@
 	</dependencies>
 
 	<build>
+		<finalName>dockerepisdoe</finalName> <!-- Your desired final JAR name -->
+
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
