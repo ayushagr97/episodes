@@ -22,7 +22,7 @@ public class EpisodeController {
 
     @GetMapping("/get/{id}")
     public ResponseEntity<Episode> getEpisode(@PathVariable Integer id){
-             return episodeService.getEpisodee(id);
+             return   episodeService.getEpisodee(id);
     }
 
     @PostMapping("/add")
